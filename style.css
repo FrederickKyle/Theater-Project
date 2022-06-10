@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+
+h2, a{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a{
+    height: 70px;
+    display: inline;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: flex-start;
+     justify-content: space-evenly; 
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+}
+
+.image{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+
+.image-words{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    font-size: 100px;
+    
+    
+}
+
+.grid-container{
+    display: grid;
+    background-color: white;
+    grid-template-rows: 300px;
+}
+
+
+.desciption{
+    display: grid;
+    grid-template-rows: 150px 150px;
+    
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.wordz{
+    display: grid;
+    position: absolute;
+    left: 900px;
+    transform: translate(-40%, 130%);
+
+}
+
+.show-image{
+    
+    position: absolute;
+    left: 400px;
+    transform: translate(-45%, 1%);
+    padding-top: 15px;
+
+}
+
+.butn{
+    position: absolute;
+    left: 600px;
+    transform: translate(-50%, 80%);
+}
+
+hr{
+    width: 1500px;
+}
+
+button{
+    margin-left: 800px;
+    height: 100px;
+    width: 100px;
+}
+
+#date{
+    width: 1200px;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.map{
+    width: 150px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.maping{
+    width: 250px;
+
+}
+
+.footinfo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    margin-left: 100px;
+}
+
+.footshows{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+.foothead{
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tiny{
+    margin: 3px;
+}
